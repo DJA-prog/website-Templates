@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: hsl(241, 100%, 37%);
+}
+header{
+  display: grid;
+  grid-template-columns: 20% 70% 10%;
+  background-color: hsl(37, 100%, 81%);
+  height: 72px;
+}
+.logo{
+}
+.logo a{
+  display: flex;
+  color: black;
+  text-decoration: none;
+}
+.logo a img{
+  width: 60px;
+  height: 60px;
+  background-color: hsl(176, 100%, 90%);
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 4px;
+}
+.logo a h2{
+  margin: auto 0;
+  font-size: 40px;
+}
+
+.logger{
+
+}
+.loggerButton{
+  margin: 0;
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  background-color: hsl(38, 100%, 58%);
+}
+.loggerButton:hover{
+  border: 2px inset grey;
+  height: 36px;
+  width: 96px;
+  padding: 4px;
+  background-color: hsl(38, 100%, 53%);
+}
+.wrapper{
+  height: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+main{
+  min-height: calc(100vh - 72px - 40px);
+  margin: 5px;
+}
+.innerMain{
+  width: calc(100vw - 10px);
+  min-height: calc(100vh - 72px - 30px - 10px);
+}
+
+.loginWindow{
+  display: none;
+  position: absolute;
+  width: calc(50vw);
+  height: calc(40vh);
+  background-color: hsl(37, 100%, 81%);
+  border-radius: 5px;
+  border: 3px solid black;
+  top: calc(30vh);
+  left: calc(25vw);text-align: center;
+  padding: 10px;
+}
+.loginWindow form{
+  display: inline-table;
+}
+.loginWindow input{
+  margin: 4px;
+}
+.loginWindowButtons{
+  display: flex;
+  justify-content: space-between;
+}
+.BUTTON{
+  cursor: pointer;
+  background-color: white;
+  padding: 5px;
+  border: 2px outset grey;
+  border-radius: 4px;
+  color: black;
+  min-width: 100px;
+  min-height: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin: auto;
+}
+.BUTTON:active{
+ border: 2px inset grey;
+}
+
+footer{
+  text-align: center;
+  height: 30px;
+  margin: 0;
+}
+footer h2{
+  background-color: hsl(37, 100%, 81%);
+  margin: auto;
+}
