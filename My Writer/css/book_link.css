@@ -1,0 +1,78 @@
+.books{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.book{
+  display: flex;
+  width: 95%;
+  margin: 5px auto;
+  border: 4px #00306E solid;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #4CFF00;
+}
+.book_cover{
+  border: 2px #00306E solid;
+  border-radius: 10px;
+  height: 120px;
+  width: 90px;
+  padding: 0;
+}
+.book_cover img{
+  border-radius: 10px;
+  height: calc(120px - 4px);
+  width: calc(90px - 4px);
+}
+.cover_form{
+  margin: auto 0;
+}
+.title_form{
+  text-align: center;
+}
+.title_form button{
+  border: none;
+  background-color: inherit;
+  margin: auto 0;
+  font-family: arial;
+}
+.book_info{
+  margin: 0 auto;
+  width: 80%;
+}
+.book h3{
+  text-decoration: underline;
+  font-weight: bold;
+}
+.book p, h3{
+  margin: 2px;
+  padding: 0;
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.author_form button{
+  border: none;
+  background-color: inherit;
+  font-size: 18px;
+  padding: 0;
+}
+.bold{
+  font-weight: bold;
+}
+.book_info_ext{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.book a{
+  text-decoration: none;
+  color: inherit;
+}
+.author_form button:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 700px) {
+  .books{
+    display: block;
+  }
+}

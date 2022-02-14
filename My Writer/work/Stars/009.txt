@@ -1,0 +1,13 @@
+Variable stars
+Main article: Variable star
+
+The asymmetrical appearance of Mira, an oscillating variable star
+Variable stars have periodic or random changes in luminosity because of intrinsic or extrinsic properties. Of the intrinsically variable stars, the primary types can be subdivided into three principal groups.
+
+During their stellar evolution, some stars pass through phases where they can become pulsating variables. Pulsating variable stars vary in radius and luminosity over time, expanding and contracting with periods ranging from minutes to years, depending on the size of the star. This category includes Cepheid and Cepheid-like stars, and long-period variables such as Mira.[184]
+
+Eruptive variables are stars that experience sudden increases in luminosity because of flares or mass ejection events.[184] This group includes protostars, Wolf-Rayet stars, and flare stars, as well as giant and supergiant stars.
+
+Cataclysmic or explosive variable stars are those that undergo a dramatic change in their properties. This group includes novae and supernovae. A binary star system that includes a nearby white dwarf can produce certain types of these spectacular stellar explosions, including the nova and a Type 1a supernova.[81] The explosion is created when the white dwarf accretes hydrogen from the companion star, building up mass until the hydrogen undergoes fusion.[185] Some novae are recurrent, having periodic outbursts of moderate amplitude.[184]
+
+Stars can vary in luminosity because of extrinsic factors, such as eclipsing binaries, as well as rotating stars that produce extreme starspots.[184] A notable example of an eclipsing binary is Algol, which regularly varies in magnitude from 2.1 to 3.4 over a period of 2.87 days.[186]

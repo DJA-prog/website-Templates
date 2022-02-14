@@ -1,0 +1,73 @@
+Characteristics
+Almost everything about a star is determined by its initial mass, including such characteristics as luminosity, size, evolution, lifespan, and its eventual fate.
+
+Age
+Main article: Stellar age estimation
+Most stars are between 1 billion and 10 billion years old. Some stars may even be close to 13.8 billion years old—the observed age of the universe. The oldest star yet discovered, HD 140283, nicknamed Methuselah star, is an estimated 14.46 ± 0.8 billion years old.[115] (Due to the uncertainty in the value, this age for the star does not conflict with the age of the universe, determined by the Planck satellite as 13.799 ± 0.021).[115][116]
+
+The more massive the star, the shorter its lifespan, primarily because massive stars have greater pressure on their cores, causing them to burn hydrogen more rapidly. The most massive stars last an average of a few million years, while stars of minimum mass (red dwarfs) burn their fuel very slowly and can last tens to hundreds of billions of years.[117][118]
+
+Lifetimes of stages of stellar evolution in billions of years[119]
+Initial Mass (M☉)	Main Sequence	Subgiant	First Red Giant	Core He Burning
+1.0	9.33	2.57	0.76	0.13
+1.6	2.28	0.03	0.12	0.13
+2.0	1.20	0.01	0.02	0.28
+5.0	0.10	0.0004	0.0003	0.02
+Chemical composition
+See also: Metallicity and Molecules in stars
+When stars form in the present Milky Way galaxy they are composed of about 71% hydrogen and 27% helium,[120] as measured by mass, with a small fraction of heavier elements. Typically the portion of heavy elements is measured in terms of the iron content of the stellar atmosphere, as iron is a common element and its absorption lines are relatively easy to measure. The portion of heavier elements may be an indicator of the likelihood that the star has a planetary system.[121]
+
+The star with the lowest iron content ever measured is the dwarf HE1327-2326, with only 1/200,000th the iron content of the Sun.[122] By contrast, the super-metal-rich star μ Leonis has nearly double the abundance of iron as the Sun, while the planet-bearing star 14 Herculis has nearly triple the iron.[123] Chemically peculiar stars show unusual abundances of certain elements in their spectrum; especially chromium and rare earth elements.[124] Stars with cooler outer atmospheres, including the Sun, can form various diatomic and polyatomic molecules.[125]
+
+Diameter
+Main articles: List of largest stars, List of smallest stars, and Solar radius
+
+Some of the well-known stars with their apparent colors and relative sizes
+Due to their great distance from the Earth, all stars except the Sun appear to the unaided eye as shining points in the night sky that twinkle because of the effect of the Earth's atmosphere. The Sun is close enough to the Earth to appear as a disk instead, and to provide daylight. Other than the Sun, the star with the largest apparent size is R Doradus, with an angular diameter of only 0.057 arcseconds.[126]
+
+The disks of most stars are much too small in angular size to be observed with current ground-based optical telescopes, and so interferometer telescopes are required to produce images of these objects. Another technique for measuring the angular size of stars is through occultation. By precisely measuring the drop in brightness of a star as it is occulted by the Moon (or the rise in brightness when it reappears), the star's angular diameter can be computed.[127]
+
+Stars range in size from neutron stars, which vary anywhere from 20 to 40 km (25 mi) in diameter, to supergiants like Betelgeuse in the Orion constellation, which has a diameter about 1,000 times that of the Sun[128][129] with a much lower density.[130]
+
+Kinematics
+Main article: Stellar kinematics
+
+The Pleiades, an open cluster of stars in the constellation of Taurus. These stars share a common motion through space.[131]
+The motion of a star relative to the Sun can provide useful information about the origin and age of a star, as well as the structure and evolution of the surrounding galaxy. The components of motion of a star consist of the radial velocity toward or away from the Sun, and the traverse angular movement, which is called its proper motion.
+
+Radial velocity is measured by the doppler shift of the star's spectral lines and is given in units of km/s. The proper motion of a star, its parallax, is determined by precise astrometric measurements in units of milli-arc seconds (mas) per year. With knowledge of the star's parallax and its distance, the proper motion velocity can be calculated. Together with the radial velocity, the total velocity can be calculated. Stars with high rates of proper motion are likely to be relatively close to the Sun, making them good candidates for parallax measurements.[132]
+
+When both rates of movement are known, the space velocity of the star relative to the Sun or the galaxy can be computed. Among nearby stars, it has been found that younger population I stars have generally lower velocities than older, population II stars. The latter have elliptical orbits that are inclined to the plane of the galaxy.[133] A comparison of the kinematics of nearby stars has allowed astronomers to trace their origin to common points in giant molecular clouds, and are referred to as stellar associations.[134]
+
+Magnetic field
+Main article: Stellar magnetic field
+
+Surface magnetic field of SU Aur (a young star of T Tauri type), reconstructed by means of Zeeman–Doppler imaging
+The magnetic field of a star is generated within regions of the interior where convective circulation occurs. This movement of conductive plasma functions like a dynamo, wherein the movement of electrical charges induce magnetic fields, as does a mechanical dynamo. Those magnetic fields have a great range that extend throughout and beyond the star. The strength of the magnetic field varies with the mass and composition of the star, and the amount of magnetic surface activity depends upon the star's rate of rotation. This surface activity produces starspots, which are regions of strong magnetic fields and lower than normal surface temperatures. Coronal loops are arching magnetic field flux lines that rise from a star's surface into the star's outer atmosphere, its corona. The coronal loops can be seen due to the plasma they conduct along their length. Stellar flares are bursts of high-energy particles that are emitted due to the same magnetic activity.[135]
+
+Young, rapidly rotating stars tend to have high levels of surface activity because of their magnetic field. The magnetic field can act upon a star's stellar wind, functioning as a brake to gradually slow the rate of rotation with time. Thus, older stars such as the Sun have a much slower rate of rotation and a lower level of surface activity. The activity levels of slowly rotating stars tend to vary in a cyclical manner and can shut down altogether for periods of time.[136] During the Maunder Minimum, for example, the Sun underwent a 70-year period with almost no sunspot activity.[137]
+
+Mass
+Main article: Stellar mass
+One of the most massive stars known is Eta Carinae,[138] which, with 100–150 times as much mass as the Sun, will have a lifespan of only several million years. Studies of the most massive open clusters suggests 150 M☉ as a rough upper limit for stars in the current era of the universe.[139] This represents an empirical value for the theoretical limit on the mass of forming stars due to increasing radiation pressure on the accreting gas cloud. Several stars in the R136 cluster in the Large Magellanic Cloud have been measured with larger masses,[140] but it has been determined that they could have been created through the collision and merger of massive stars in close binary systems, sidestepping the 150 M☉ limit on massive star formation.[141]
+
+
+The reflection nebula NGC 1999 is brilliantly illuminated by V380 Orionis. The black patch of sky is a vast hole of empty space and not a dark nebula as previously thought.
+The first stars to form after the Big Bang may have been larger, up to 300 M☉,[142] due to the complete absence of elements heavier than lithium in their composition. This generation of supermassive population III stars is likely to have existed in the very early universe (i.e., they are observed to have a high redshift), and may have started the production of chemical elements heavier than hydrogen that are needed for the later formation of planets and life. In June 2015, astronomers reported evidence for Population III stars in the Cosmos Redshift 7 galaxy at z = 6.60.[143][144]
+
+With a mass only 80 times that of Jupiter (MJ), 2MASS J0523-1403 is the smallest known star undergoing nuclear fusion in its core.[145] For stars with metallicity similar to the Sun, the theoretical minimum mass the star can have and still undergo fusion at the core, is estimated to be about 75 MJ.[146][147] When the metallicity is very low, the minimum star size seems to be about 8.3% of the solar mass, or about 87 MJ.[147][148] Smaller bodies called brown dwarfs, occupy a poorly defined grey area between stars and gas giants.[146][147]
+
+The combination of the radius and the mass of a star determines its surface gravity. Giant stars have a much lower surface gravity than do main sequence stars, while the opposite is the case for degenerate, compact stars such as white dwarfs. The surface gravity can influence the appearance of a star's spectrum, with higher gravity causing a broadening of the absorption lines.[32]
+
+Rotation
+Main article: Stellar rotation
+The rotation rate of stars can be determined through spectroscopic measurement, or more exactly determined by tracking their starspots. Young stars can have a rotation greater than 100 km/s at the equator. The B-class star Achernar, for example, has an equatorial velocity of about 225 km/s or greater, causing its equator to bulge outward and giving it an equatorial diameter that is more than 50% greater than between the poles. This rate of rotation is just below the critical velocity of 300 km/s at which speed the star would break apart.[149] By contrast, the Sun rotates once every 25–35 days depending on latitude,[150] with an equatorial velocity of 1.93 km/s.[151] A main sequence star's magnetic field and the stellar wind serve to slow its rotation by a significant amount as it evolves on the main sequence.[152]
+
+Degenerate stars have contracted into a compact mass, resulting in a rapid rate of rotation. However they have relatively low rates of rotation compared to what would be expected by conservation of angular momentum—the tendency of a rotating body to compensate for a contraction in size by increasing its rate of spin. A large portion of the star's angular momentum is dissipated as a result of mass loss through the stellar wind.[153] In spite of this, the rate of rotation for a pulsar can be very rapid. The pulsar at the heart of the Crab nebula, for example, rotates 30 times per second.[154] The rotation rate of the pulsar will gradually slow due to the emission of radiation.[155]
+
+Temperature
+The surface temperature of a main sequence star is determined by the rate of energy production of its core and by its radius, and is often estimated from the star's color index.[156] The temperature is normally given in terms of an effective temperature, which is the temperature of an idealized black body that radiates its energy at the same luminosity per surface area as the star. The effective temperature is only representative of the surface, as the temperature increases toward the core.[157] The temperature in the core region of a star is several million kelvins.[158]
+
+The stellar temperature will determine the rate of ionization of various elements, resulting in characteristic absorption lines in the spectrum. The surface temperature of a star, along with its visual absolute magnitude and absorption features, is used to classify a star (see classification below).[32]
+
+Massive main sequence stars can have surface temperatures of 50,000 K. Smaller stars such as the Sun have surface temperatures of a few thousand K. Red giants have relatively low surface temperatures of about 3,600 K; but they have a high luminosity due to their large exterior surface area.[159]

@@ -1,0 +1,49 @@
+.txt{
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  text-align:center;
+  margin-bottom: 5px;
+}
+.txt textarea{
+  height: 500px;
+  width: calc(100% - 10px);
+  font-family: sans-serif;
+  background-color: inherit;
+}
+.txt button{
+
+}
+
+.chapter_select{
+  margin-bottom: 10px;
+  padding: 3px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.chapter_select input[type=submit]{
+  background-color: #00306E;
+  color: #ABD0FF;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 4px;
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+.current_chapter{
+  text-decoration: underline;
+  border-color: red;
+}
+.edit_book_info{
+  padding: 3px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 700px) {
+  .chapter_select input[type=submit]{
+    margin-right: 4px;
+    font-size: 3.5vw;
+  }
+}

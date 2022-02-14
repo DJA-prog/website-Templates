@@ -1,0 +1,12 @@
+Units of measurement
+
+Although stellar parameters can be expressed in SI units or Gaussian units, it is often most convenient to express mass, luminosity, and radii in solar units, based on the characteristics of the Sun. In 2015, the IAU defined a set of nominal solar values (defined as SI constants, without uncertainties) which can be used for quoting stellar parameters:
+
+nominal solar luminosity:	L⊙ = 3.828 × 1026 W [52]
+nominal solar radius	R⊙ = 6.957 × 108 m [52]
+The solar mass M⊙ was not explicitly defined by the IAU due to the large relative uncertainty (10−4) of the Newtonian gravitational constant G. Since the product of the Newtonian gravitational constant and solar mass together (GM⊙) has been determined to much greater precision, the IAU defined the nominal solar mass parameter to be:
+
+nominal solar mass parameter:	GM⊙ = 1.3271244 × 1020 m3 s−2 [52]
+The nominal solar mass parameter can be combined with the most recent (2014) CODATA estimate of the Newtonian gravitational constant G to derive the solar mass to be approximately 1.9885 × 1030 kg. Although the exact values for the luminosity, radius, mass parameter, and mass may vary slightly in the future due to observational uncertainties, the 2015 IAU nominal constants will remain the same SI values as they remain useful measures for quoting stellar parameters.
+
+Large lengths, such as the radius of a giant star or the semi-major axis of a binary star system, are often expressed in terms of the astronomical unit—approximately equal to the mean distance between the Earth and the Sun (150 million km or approximately 93 million miles). In 2012, the IAU defined the astronomical constant to be an exact length in meters: 149,597,870,700 m.[52]

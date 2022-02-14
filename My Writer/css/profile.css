@@ -1,0 +1,51 @@
+#profile_bio_sqlireturn{
+  display: block;
+}
+#profile_bio{
+  border: 2px solid #1C1F1C;
+  border-radius: 5px;
+  padding: 2px;
+  width: 80vw;
+}
+#update_profile_bio{
+  display: none;
+}
+#update_profile_bio_textarea{
+  width: 99%;
+  height: 15vw;
+}
+#delete_profile{
+  display: none;
+}
+#personal{
+  display: block;
+}
+#personal{
+  display: block;
+}
+#personalise{
+  display: none;
+}
+#pwd_change{
+  display: none;
+}
+.profile_settings{
+  display: flex;
+}
+.profile_side_panel{
+  border-right: 2px solid #1C1F1C;
+  padding-right: 5px;
+}
+.profile_side_panel button{
+  border: none;
+  margin: 5px 0;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: inherit;
+}
+.profile_side_panel button:hover{
+  text-decoration: underline;
+}
+.profile_main_view{
+  padding-left: 5px;
+}

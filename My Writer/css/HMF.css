@@ -1,0 +1,278 @@
+/*Header*/
+header{
+  padding: 5px;
+  border-bottom: 2px #00306E solid;
+  border-top: 2px #00306E solid;
+  background-color: #157CFF;
+  color: #000000;
+  margin: 0;
+}
+.header{
+  display: grid;
+  grid-template-columns: 10% 65% 25%;
+  height: calc(6vw + 4px);
+}
+.header .Logo{
+  margin: auto auto;
+  height: calc(6vw + 4px);
+}
+.header .Logo img{
+  height: 6vw;
+  max-width: 200px;
+  border: 2px #1C1F1C solid;
+  border-radius: 10px;
+  margin: 0;
+}
+.header li{
+  list-style-type: none;
+}
+.navbar {
+  margin: auto auto;
+  display: flex;
+}
+
+.navbar  a {
+  color: #ABD0FF;
+  font-size: 2.5vw;
+  text-align: center;
+  margin:2px;
+  padding: 5px;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #00306E;
+}
+#narrow{
+  display: none;
+}
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 3vw;
+  border: none;
+  border-radius: 10px;
+  background-color: #00306E;
+  color: #ABD0FF;
+  padding: 5px;
+  font-family: inherit;
+  margin: 2px;
+  min-width: 160px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  text-decoration: underline;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #FFF;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.show {
+  display: block;
+}
+
+.Profile{
+  margin: auto auto;
+  height: calc(6vw + 4px);
+  display: flex;
+}
+.Username{
+  margin: auto auto;
+}
+.Username p{
+  font-size: 2vw;
+  padding: 5px;
+  color: #1C1F1C;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.Profile .Profile_image img{
+  border-radius: 50%;
+  border: 2px #000 solid;
+  height: 6vw;
+  margin: 0;
+}
+.Profile .Profile_image img:hover{
+  padding: 2px;
+  height: calc(6vw - 4px);
+}
+
+/*Login*/
+#logout{
+  display: none;
+  z-index: 9;
+  position: absolute;
+  left: 25%;
+  width: 50%;
+  border: 4px #00306E solid;
+  border-radius: 20px;
+  background-color: #4CFF00;
+  color: #00306E;
+  padding: 10px;
+  margin: 10px;
+}
+#logout span{
+  border: 2px #000 solid;
+  border: 50%;
+  padding: 5px;
+  margin: 5px;
+  background-color: #f00;
+  font-weight: bold;
+  cursor:pointer;
+}
+#logout button{
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px;
+  cursor: pointer;
+}
+#login_register{
+  display: none;
+  z-index: 9;
+  position: absolute;
+  left: 32.57%;
+}
+#login_register .center{
+  text-align: center;
+  display: flex;
+}
+#login_register input{
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+#login_register h1{
+  margin: 5px;
+  text-decoration: underline;
+}
+#login_register span{
+  border: 2px #000 solid;
+  border: 50%;
+  padding: 5px;
+  margin: 5px;
+  background-color: #f00;
+  font-weight: bold;
+  cursor:pointer;
+}
+#login_register button{
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px;
+  cursor: pointer;
+}
+#login_register hr{
+  display: none;
+}
+#login_register .Login, .Register{
+  border: 4px #00306E solid;
+  border-radius: 20px;
+  background-color: #4CFF00;
+  color: #00306E;
+  padding: 10px;
+  margin: 10px;
+}
+/*main*/
+main{
+  width: 90%;
+  margin: 10px auto;
+  border: 4px #00306E solid;
+  border-radius: 20px;
+  background-color: #4CFF00;
+  color: #00306E;
+  padding: 10px;
+}
+
+.main{
+  width: 90%;
+  margin: 10px auto;
+}
+/*footer*/
+footer{
+  bottom: 0%;
+  min-height: 4vw;
+  background-color: #157CFF;
+  border-top: 2px #00306E solid;
+  color: #00306E;
+  padding: 5px;
+  text-align: center;
+}
+footer h3{
+  margin: 0;
+  font-size: 2vw;
+}
+@media screen and (max-width: 700px) {
+  header{
+    min-height: 11vw;
+  }
+  .Username{
+    display: none;
+  }
+  .header{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+  }
+  .header .Logo{
+    margin: auto auto;
+    height: calc(10vw + 2px);
+  }
+  .header .Logo img{
+    height: 10vw;
+    border: 1px #1C1F1C solid;
+  }
+  #broad{
+    display: none;
+  }
+  #narrow{
+    display: flex;
+  }
+  .dropdown .dropbtn {
+    font-size: 6vw;
+  }
+  .navbar  a {
+    font-size: 6vw;
+  }
+  .Profile{
+    height: calc(10vw - 2px);
+  }
+  .Profile .Profile_image img{
+    height: 10vw;
+    border: 1px #000 solid;
+  }
+  .Profile .Profile_image img:hover{
+    padding: 2px;
+    height: calc(10vw - 4px);
+  }
+  .main{
+    width: 99%;
+  }
+  footer h3{
+    font-size: 4vw;
+  }
+  #login_register{
+    margin: auto auto;
+  }
+  #login_register .center{
+    display: block;
+  }
+}

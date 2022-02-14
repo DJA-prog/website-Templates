@@ -1,0 +1,49 @@
+Nuclear fusion reaction pathways
+Main article: Stellar nucleosynthesis
+
+Overview of the proton-proton chain
+
+The carbon-nitrogen-oxygen cycle
+When nuclei fuse, the mass of the fused product is less than the mass of the original parts. This lost mass is converted to electromagnetic energy, according to the mass–energy equivalence relationship E = mc2.[195] A variety of nuclear fusion reactions take place in the cores of stars, that depend upon their mass and composition.
+
+The hydrogen fusion process is temperature-sensitive, so a moderate increase in the core temperature will result in a significant increase in the fusion rate. As a result, the core temperature of main sequence stars only varies from 4 million kelvin for a small M-class star to 40 million kelvin for a massive O-class star.[158]
+
+In the Sun, with a 16-million-kelvin core, hydrogen fuses to form helium in the proton–proton chain reaction:[196]
+
+41H → 22H + 2e+ + 2νe(2 x 0.4 MeV)
+2e+ + 2e− → 2γ (2 x 1.0 MeV)
+21H + 22H → 23He + 2γ (2 x 5.5 MeV)
+23He → 4He + 21H (12.9 MeV)
+There are a couple other paths, in which 3He and 4He combine to form 7Be, which eventually (with the addition of another proton) yields two 4He, a gain of one.
+
+All these reactions result in the overall reaction:
+
+41H → 4He + 2γ + 2νe (26.7 MeV)
+where γ is a gamma ray photon, νe is a neutrino, and H and He are isotopes of hydrogen and helium, respectively. The energy released by this reaction is in millions of electron volts. Each individual reaction produces only a tiny amount of energy, but because enormous numbers of these reactions occur constantly, they produce all the energy necessary to sustain the star's radiation output. In comparison, the combustion of two hydrogen gas molecules with one oxygen gas molecule releases only 5.7 eV.
+
+In more massive stars, helium is produced in a cycle of reactions catalyzed by carbon called the carbon-nitrogen-oxygen cycle.[196]
+
+In evolved stars with cores at 100 million kelvin and masses between 0.5 and 10 M☉, helium can be transformed into carbon in the triple-alpha process that uses the intermediate element beryllium:[196]
+
+4He + 4He + 92 keV → 8*Be
+4He + 8*Be + 67 keV → 12*C
+12*C → 12C + γ + 7.4 MeV
+For an overall reaction of:
+
+
+Overview of consecutive fusion processes in massive stars
+34He → 12C + γ + 7.2 MeV
+In massive stars, heavier elements can be burned in a contracting core through the neon-burning process and oxygen-burning process. The final stage in the stellar nucleosynthesis process is the silicon-burning process that results in the production of the stable isotope iron-56.[196] Any further fusion would be an endothermic process that consumes energy, and so further energy can only be produced through gravitational collapse.
+
+Duration of the main phases of fusion for a 20 M☉ star[197]
+Fuel
+material	Temperature
+(million kelvins)	Density
+(kg/cm3)	Burn duration
+(τ in years)
+H	37	0.0045	8.1 million
+He	188	0.97	1.2 million
+C	870	170	976
+Ne	1,570	3,100	0.6
+O	1,980	5,550	1.25
+S/Si	3,340	33,400	0.0315

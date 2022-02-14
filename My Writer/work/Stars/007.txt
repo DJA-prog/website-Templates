@@ -1,0 +1,41 @@
+Radiation
+The energy produced by stars, a product of nuclear fusion, radiates to space as both electromagnetic radiation and particle radiation. The particle radiation emitted by a star is manifested as the stellar wind,[160] which streams from the outer layers as electrically charged protons and alpha and beta particles. A steady stream of almost massless neutrinos emanate directly from the star's core.[161]
+
+The production of energy at the core is the reason stars shine so brightly: every time two or more atomic nuclei fuse together to form a single atomic nucleus of a new heavier element, gamma ray photons are released from the nuclear fusion product. This energy is converted to other forms of electromagnetic energy of lower frequency, such as visible light, by the time it reaches the star's outer layers.[162]
+
+The color of a star, as determined by the most intense frequency of the visible light, depends on the temperature of the star's outer layers, including its photosphere.[163] Besides visible light, stars emit forms of electromagnetic radiation that are invisible to the human eye. In fact, stellar electromagnetic radiation spans the entire electromagnetic spectrum, from the longest wavelengths of radio waves through infrared, visible light, ultraviolet, to the shortest of X-rays, and gamma rays. From the standpoint of total energy emitted by a star, not all components of stellar electromagnetic radiation are significant, but all frequencies provide insight into the star's physics.[161]
+
+Using the stellar spectrum, astronomers can determine the surface temperature, surface gravity, metallicity and rotational velocity of a star. If the distance of the star is found, such as by measuring the parallax, then the luminosity of the star can be derived. The mass, radius, surface gravity, and rotation period can then be estimated based on stellar models. (Mass can be calculated for stars in binary systems by measuring their orbital velocities and distances. Gravitational microlensing has been used to measure the mass of a single star.[164]) With these parameters, astronomers can estimate the age of the star.[165]
+
+Luminosity
+The luminosity of a star is the amount of light and other forms of radiant energy it radiates per unit of time. It has units of power. The luminosity of a star is determined by its radius and surface temperature. Many stars do not radiate uniformly across their entire surface. The rapidly rotating star Vega, for example, has a higher energy flux (power per unit area) at its poles than along its equator.[166]
+
+Patches of the star's surface with a lower temperature and luminosity than average are known as starspots. Small, dwarf stars such as our Sun generally have essentially featureless disks with only small starspots. Giant stars have much larger, more obvious starspots,[167] and they exhibit strong stellar limb darkening. That is, the brightness decreases towards the edge of the stellar disk.[168] Red dwarf flare stars such as UV Ceti may possess prominent starspot features.[169]
+
+Magnitude
+Main articles: Apparent magnitude and Absolute magnitude
+The apparent brightness of a star is expressed in terms of its apparent magnitude. It is a function of the star's luminosity, its distance from Earth, the extinction effect of interstellar dust and gas, and the altering of the star's light as it passes through Earth's atmosphere. Intrinsic or absolute magnitude is directly related to a star's luminosity, and is the apparent magnitude a star would be if the distance between the Earth and the star were 10 parsecs (32.6 light-years).[170]
+
+Number of stars brighter than magnitude
+Apparent
+magnitude	Number 
+of stars[171]
+0	4
+1	15
+2	48
+3	171
+4	513
+5	1,602
+6	4,800
+7	14,000
+Both the apparent and absolute magnitude scales are logarithmic units: one whole number difference in magnitude is equal to a brightness variation of about 2.5 times[172] (the 5th root of 100 or approximately 2.512). This means that a first magnitude star (+1.00) is about 2.5 times brighter than a second magnitude (+2.00) star, and about 100 times brighter than a sixth magnitude star (+6.00). The faintest stars visible to the naked eye under good seeing conditions are about magnitude +6.[173]
+
+On both apparent and absolute magnitude scales, the smaller the magnitude number, the brighter the star; the larger the magnitude number, the fainter the star. The brightest stars, on either scale, have negative magnitude numbers. The variation in brightness (ΔL) between two stars is calculated by subtracting the magnitude number of the brighter star (mb) from the magnitude number of the fainter star (mf), then using the difference as an exponent for the base number 2.512; that is to say:
+
+{\displaystyle \Delta {m}=m_{\mathrm {f} }-m_{\mathrm {b} }}\Delta {m}=m_{\mathrm {f} }-m_{\mathrm {b} }
+{\displaystyle 2.512^{\Delta {m}}=\Delta {L}}2.512^{\Delta {m}}=\Delta {L}
+Relative to both luminosity and distance from Earth, a star's absolute magnitude (M) and apparent magnitude (m) are not equivalent;[172] for example, the bright star Sirius has an apparent magnitude of −1.44, but it has an absolute magnitude of +1.41.
+
+The Sun has an apparent magnitude of −26.7, but its absolute magnitude is only +4.83. Sirius, the brightest star in the night sky as seen from Earth, is approximately 23 times more luminous than the Sun, while Canopus, the second brightest star in the night sky with an absolute magnitude of −5.53, is approximately 14,000 times more luminous than the Sun. Despite Canopus being vastly more luminous than Sirius, the latter star appears the brighter of the two. This is because Sirius is merely 8.6 light-years from the Earth, while Canopus is much farther away at a distance of 310 light-years.[174]
+
+The most luminous known stars have absolute magnitudes of roughly −12, corresponding to 6 million times the luminosity of the Sun.[175] Theoretically, the least luminous stars are at the lower limit of mass at which stars are capable of supporting nuclear fusion of hydrogen in the core; stars just above this limit have been located in the NGC 6397 cluster. The faintest red dwarfs in the cluster are absolute magnitude 15, while a 17th absolute magnitude white dwarf has been discovered.[176][177]

@@ -1,0 +1,45 @@
+button{
+  cursor: pointer;
+  font-family: arial;
+}
+body{
+  background-color: #FFC;
+  margin: 0;
+  font-family: arial;
+}
+.header .Navigation{
+  margin: auto auto;
+}
+.header .Navigation nav{
+  display: flex;
+}
+.header .Navigation li{
+  margin: 2px;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #A73E00;
+  font-size: 3vw;
+}
+.header .Navigation a{
+  color: #FFF;
+  text-decoration: none;
+}
+
+.current{
+  background-color: #4CFF00;
+  border: 4px #00306E solid;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+}
+
+
+
+
+
+@media screen and (max-width: 700px) {
+  .books{
+    display: block;
+  }
+}
