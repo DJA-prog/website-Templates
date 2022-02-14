@@ -39,7 +39,7 @@ CREATE TABLE `users` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 INSERT INTO `users` (`id`, `username`, `fullname`, `surname`, `DOB`, `email`, `cell`, `password`, `bio`, `profile_img`, `last_read`, `last_chapter`, `line_space`, `font_size`) VALUES
-(1, 'Admin', 'Dino Jose', 'Almirall', '2001-01-29', 'almirall.dino@gmail.com', '00', '$2y$10$lSShNrK5I/Xu1qh06ifU3eiRNkHKUMuRyagbHdq2bkrObnLidtfYS', 'Administrator!', 'admin.png', 'Stars', '009', 2, 18);
+(1, 'Admin', 'Dino Jose', 'Almirall', '2000-01-01', 'almirall.dino@gmail.com', '00', '$2y$10$lSShNrK5I/Xu1qh06ifU3eiRNkHKUMuRyagbHdq2bkrObnLidtfYS', 'Administrator!', 'admin.png', 'Stars', '009', 2, 18);
 
 ALTER TABLE `books`
   ADD PRIMARY KEY (`id`);
