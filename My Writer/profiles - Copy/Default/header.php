@@ -69,7 +69,7 @@
             if (mysqli_num_rows($result) > 0) {
               while($row = mysqli_fetch_assoc($result)) {
                 $profile_img = $row['profile_img'];
-                echo '<img src="/Project033/img/profile_img/'.$profile_img.'" id="Profile_image" onclick="logout()" style="cursor:pointer;">';
+                echo '<img src="/img/profile_img/'.$profile_img.'" id="Profile_image" onclick="logout()" style="cursor:pointer;">';
               }
             }else {
               echo $query;

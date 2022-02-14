@@ -32,7 +32,7 @@
 </style>
     <?php
     $server = $_SERVER['SERVER_ADDR'];
-    require '/Project033/includes/dbh.inc.php';
+    require '/includes/dbh.inc.php';
     $query = "SELECT * FROM books WHERE pvt='NO'";
     $result = mysqli_query($conn,$query);
     if (mysqli_num_rows($result) > 0) {
@@ -40,7 +40,7 @@
         if ($row["status"] == 'Coming Soon') {
           echo '<div class="book">
                   <form class="cover_form">
-                    <button type="none" name="read" class="book_cover"><div class="book_cove"><img src="/Project033/img/covers/'.$row["cover"].'" alt="Cover"></div></button>
+                    <button type="none" name="read" class="book_cover"><div class="book_cove"><img src="/img/covers/'.$row["cover"].'" alt="Cover"></div></button>
                   </form>
                   <div class="book_info">
                     <form class="title_form">
@@ -62,13 +62,13 @@
                 </div>';
         }else {
           echo '<div class="book">
-                  <form class="cover_form" action="/Project033/read.php" method="post">
+                  <form class="cover_form" action="/read.php" method="post">
                     <input type="hidden" name="author" value="'.$row["author"].'">
                     <input type="hidden" name="book" value="'.$row["title"].'">
-                    <button type="submit" name="read" class="book_cover"><div class="book_cove"><img src="/Project033/img/covers/'.$row["cover"].'" alt="Cover"></div></button>
+                    <button type="submit" name="read" class="book_cover"><div class="book_cove"><img src="/img/covers/'.$row["cover"].'" alt="Cover"></div></button>
                   </form>
                   <div class="book_info">
-                    <form class="title_form" action="/Project033/read.php" method="post">
+                    <form class="title_form" action="/read.php" method="post">
                       <input type="hidden" name="author" value="'.$row["author"].'">
                       <input type="hidden" name="book" value="'.$row["title"].'">
                       <button type="submit" name="read"><h3><span class="bold">'.$row["title"].'</span></h3></button>

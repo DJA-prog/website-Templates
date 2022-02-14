@@ -11,7 +11,7 @@
       <button class="create_new" onclick="new_script()" ><h1><span class="bold">CREATE NEW WORK</span></h1></button>
   </div>
 <?php
-// require '/Project033/includes/dbh.inc.php';
+// require '/includes/dbh.inc.php';
 $query = "SELECT * FROM books WHERE author='$user'";
 $result = mysqli_query($conn,$query);
 if ($result != '') {

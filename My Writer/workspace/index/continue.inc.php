@@ -8,8 +8,8 @@
   </style>
 
 <?php
-// echo '/Project033/includes/dbh.inc.php';
-// require '/Project033/includes/dbh.inc.php';
+// echo '/includes/dbh.inc.php';
+// require '/includes/dbh.inc.php';
 $query = "SELECT * FROM books WHERE author='$user'";
 $result = mysqli_query($conn,$query);
 if ($result != '') {

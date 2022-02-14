@@ -38,5 +38,5 @@ function deleteContent($path){
   }
   return true;
 }
-header("Location: http://".$server."/Project033/index.php");
+header("Location: http://".$server."/index.php");
 exit;

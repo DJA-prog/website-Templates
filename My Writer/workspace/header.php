@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./css/workspace.css">
     <link rel="stylesheet" href="./css/manage.css">
     <link rel="stylesheet" href="./css/profile.css">
-    <?php echo '<link rel="icon" href="/Project033/img/writer_icon.png">'; ?>
+    <?php echo '<link rel="icon" href="/img/writer_icon.png">'; ?>
     <script src="./scripts/main.js" charset="utf-8"></script>
     <title>MY Writer</title>
   </head>
@@ -27,7 +27,7 @@
     <header>
       <div class="header">
         <div class="Logo">
-          <?php echo '<img src="/Project033/img/writer_icon.png">' ?>
+          <?php echo '<img src="/img/writer_icon.png">' ?>
 
         </div>
 
@@ -36,12 +36,12 @@
             <div class="dropdown">
             <button class="dropbtn" onclick="myFunction()">Menu</button>
             <div class="dropdown-content" id="myDropdown">
-              <?php echo '<a href="/Project033/index.php">Home</a>'; ?>
+              <?php echo '<a href="/index.php">Home</a>'; ?>
               <a href="../contacts.php">Contact</a>
               <?php
                 if (isset($user)) {
                   if ($user == 'Admin') {
-                    echo '<a href="/Project033/profiles/'.$user.'/manage.php">Manage</a>';
+                    echo '<a href="/profiles/'.$user.'/manage.php">Manage</a>';
                   }
                   echo '
                     <a href="./workspace/Workspace.php">Workspace</a>
@@ -53,12 +53,12 @@
             </div>
           </div>
           <div id="broad">
-            <?php echo '<a href="/Project033/index.php">Home</a>'; ?>
+            <?php echo '<a href="/index.php">Home</a>'; ?>
             <a href="../contacts.php">Contact</a>
             <?php
               if (isset($user)) {
                 if ($user == 'Admin') {
-                  echo '<a href="/Project033/profiles/'.$user.'/manage.php">Manage</a>';
+                  echo '<a href="/profiles/'.$user.'/manage.php">Manage</a>';
                 }
                 echo '
                   <a href="../workspace/Workspace.php">Workspace</a>
@@ -88,13 +88,13 @@
               if (mysqli_num_rows($result) > 0) {
                 while($row = mysqli_fetch_assoc($result)) {
                   $profile_img = $row['profile_img'];
-                  echo '<img src="/Project033/img/profile_img/'.$profile_img.'" id="Profile_image" onclick="logout()" style="cursor:pointer;">';
+                  echo '<img src="/img/profile_img/'.$profile_img.'" id="Profile_image" onclick="logout()" style="cursor:pointer;">';
                 }
               }else {
                 echo $query;
               }
             }else {
-              echo '<img src="/Project033/img/profile_img/guest_icon.png" id="Profile_image" onclick="login_register()" style="cursor:pointer;">';
+              echo '<img src="/img/profile_img/guest_icon.png" id="Profile_image" onclick="login_register()" style="cursor:pointer;">';
             }
              ?>
           </div>
@@ -107,7 +107,7 @@
       <div class="Username" style="text-align:center;">
         <?php echo '<p>Do you want to logout from:</P><br><p> '.$_SESSION['WRITERname'].'</p>';?>
       </div>
-      <?php echo '<form action="/Project033/includes/logout.inc.php" method="post" style="text-align:center;">'; ?>
+      <?php echo '<form action="/includes/logout.inc.php" method="post" style="text-align:center;">'; ?>
         <button type="submit" name="login-submit" style="cursor:pointer;" class="logout">Logout</button>
       </form>
     </div>
