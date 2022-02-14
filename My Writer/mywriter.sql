@@ -1,3 +1,5 @@
+CREATE DATABASE IF NOT EXISTS mywriter;
+
 CREATE TABLE `books` (
   `id` tinyint(4) NOT NULL,
   `title` tinytext NOT NULL,
@@ -11,10 +13,10 @@ CREATE TABLE `books` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `books` (`id`, `title`, `genre`, `status`, `last_update`, `first_update`, `author`, `cover`, `pvt`) VALUES
-(1, 'Dragons', 'Fantasy', 'Ongoing', '2021-05-18', '2021-05-18', 'Admin', 'Dragons.jpg', 'YES'),
-(2, 'Bidirectional love', 'Romance', 'Coming Soon', '2021-05-18', '2021-05-18', 'Admin', 'Bidirectional love.png', 'YES'),
+(1, 'Dragons', 'Fantasy', 'Ongoing', '2021-05-18', '2021-05-18', 'Elsa', 'Dragons.jpg', 'YES'),
+(2, 'Bidirectional love', 'Romance', 'Coming Soon', '2021-05-18', '2021-05-18', 'Ben', 'Bidirectional love.png', 'YES'),
 (3, 'Endless Dream', 'Horror', 'Coming Soon', '2021-05-18', '2021-05-18', 'Admin', 'Endless Dream.jpg', 'YES'),
-(4, 'Fleeting', 'Romance', 'On-hold', '2021-05-18', '2021-05-18', 'Admin', 'Fleeting.jpg', 'NO'),
+(4, 'Fleeting', 'Romance', 'On-hold', '2021-05-18', '2021-05-18', 'Adriaan', 'Fleeting.jpg', 'NO'),
 (5, 'Stars', 'Facts', 'Complete', '2021-05-18', '2021-05-18', 'Admin', 'Stars.jpg', 'NO'),
 (6, 'The origin is the Light house', 'Fantasy', 'Coming Soon', '2021-05-18', '2021-05-18', 'Admin', 'The origin is the Light house.jpg', 'YES'),
 (7, 'Anderson\'s Play house', 'Children\'s stories', 'Coming Soon', '2021-12-10', '2021-07-18', 'Admin', 'Anderson\'s Play house.jpg', 'NO');
