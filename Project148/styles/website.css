@@ -1,0 +1,32 @@
+.website{
+  width: 100%;
+  min-height: 250px;
+  background-color: hsla(0, 0%, 100%, 0.8);
+  color: #0a2662;
+}
+.website table{
+  border: 2px solid #a00000;
+  margin: auto;
+}
+.website_box td{
+  border-bottom: 2px solid #a00000;
+}
+
+.website_box h3, .website_box h4{
+  margin-right: 10px;
+}
+
+.website_print{
+  display: inline-inline-block;
+}
+
+.website_input, .website_button_apply{
+  display: none;
+}
+
+.website_button{
+  padding: 5px;
+  cursor: pointer;
+  background-color: #ffdc1a;
+  border-radius: 6px;
+}

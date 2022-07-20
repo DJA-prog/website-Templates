@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: grey;
+  font-family: sans-serif;
+}
+/*
+:root, #cssProperties{
+  --buttonB-color: attr(buttonB-color); /*Button background color
+  --buttonb-color: attr(buttonb-color); /*Button border color
+} */

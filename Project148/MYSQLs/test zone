@@ -1,0 +1,121 @@
+SELECT
+	Animations.name
+FROM
+	Animations
+INNER JOIN favourites ON favourites.favourite_id = Animations.id
+WHERE favourites.favourite_table = 'Animations' AND favourites.user_id = 2;
+
+SELECT
+	Animations.name,
+    users.username
+FROM
+	Animations
+INNER JOIN Access ON Access.access_id = Animations.id
+INNER JOIN users ON users.id = Access.user_id
+WHERE Access.access_table = 'Animations' AND Access.user_id = 3;
+
+SELECT
+	Animations.name,
+    users.username,
+    Access.access_table,
+    rates.rate
+FROM
+	Animations
+INNER JOIN Access ON Access.access_id = Animations.id AND Access.access_table = 'Animations'
+INNER JOIN users ON users.id = Access.user_id
+LEFT JOIN rates ON rates.rate_id = Animations.id AND rates.user_id = Access.user_id AND rates.rate_table = 'Animations'
+#WHERE Access.user_id = 3;
+
+SELECT
+	Animations.name,
+    users.username,
+    Access.access_table,
+    rates.rate,
+    IF(favourites.id IS NULL, '&star;', '&bigstar;')
+FROM
+	Animations
+INNER JOIN Access ON Access.access_id = Animations.id AND Access.access_table = 'Animations'
+INNER JOIN users ON users.id = Access.user_id
+LEFT JOIN rates ON rates.rate_id = Animations.id AND rates.user_id = Access.user_id AND rates.rate_table = 'Animations'
+LEFT JOIN favourites ON favourites.user_id = Access.user_id AND favourites.favourite_id = Animations.id AND favourites.favourite_table = 'Animations'
+#WHERE Access.user_id = 2;
+
+SELECT
+	favourites.*,
+    Animations.name,
+    Animations.cover_loc,
+    rates.rate
+FROM
+	favourites
+INNER JOIN Access ON Access.user_id = favourites.user_id AND  Access.access_table = favourites.favourite_table AND Access.access_id = favourites.favourite_id AND favourites.favourite_table = 'Animations'
+LEFT JOIN Animations ON Animations.id = favourites.favourite_id
+LEFT JOIN rates ON rates.rate_id = favourites.favourite_id AND rates.user_id = favourites.user_id AND rates.rate_table = 'Animations'
+WHERE favourites.user_id = 3
+
+
+SELECT
+	Animations.name,
+    users.username,
+    Access.access_table,
+    rates.rate,
+    IF(favourites.id IS NULL, '☆', '★') AS FAV
+FROM
+	Animations
+LEFT JOIN Global_access ON Global_access.global_access_id = Animations.id AND Global_access.global_access_table = 'Animations'
+INNER JOIN Access ON Access.access_id = Animations.id AND Access.access_table = 'Animations'
+INNER JOIN users ON users.id = Access.user_id
+LEFT JOIN rates ON rates.rate_id = Animations.id AND rates.user_id = Access.user_id AND rates.rate_table = 'Animations'
+LEFT JOIN favourites ON favourites.user_id = Access.user_id AND favourites.favourite_id = Animations.id AND favourites.favourite_table = 'Animations'
+WHERE Access.user_id = 2
+ORDER BY Animations.name;
+
+
+SELECT
+	Animations.*,
+    rates.rate,
+    IF(favourites.id IS NULL, '☆', '★') AS FAV
+FROM
+	Animations
+INNER JOIN Access ON Access.access_id = Animations.id AND Access.access_table = 'Animations' AND Access.user_id = 2
+INNER JOIN users ON users.id = Access.user_id
+LEFT JOIN rates ON rates.rate_id = Animations.id AND rates.user_id = Access.user_id AND rates.rate_table = 'Animations'
+LEFT JOIN favourites ON favourites.user_id = Access.user_id AND favourites.favourite_id = Animations.id AND favourites.favourite_table = 'Animations'
+UNION ALL
+SELECT
+	Animations.*,
+    rates.rate,
+    NULL
+FROM
+	Animations
+INNER JOIN Global_access ON Global_access.global_access_id =  Animations.id AND Global_access.global_access_table = 'Animations'
+LEFT JOIN rates ON rates.rate_id = Animations.id AND rates.user_id = 2 AND rates.rate_table = 'Animations'
+WHERE available = 1
+ORDER BY name;
+
+
+SELECT
+    Animations.*,
+    rates.rate,
+    IF(favourites.id IS NULL, '☆', '★') AS FAV
+FROM Animations
+INNER JOIN Access ON Access.access_id = Animations.id AND Access.access_table = 'Animations' AND Access.user_id = 1
+INNER JOIN users ON users.id = Access.user_id
+LEFT JOIN rates ON rates.rate_id = Animations.id AND rates.user_id = Access.user_id AND rates.rate_table = 'Animations'
+LEFT JOIN favourites ON favourites.user_id = Access.user_id AND favourites.favourite_id = Animations.id AND favourites.favourite_table = 'Animations'
+UNION
+    SELECT Animations.*,
+    rates.rate,
+    IF(favourites.id IS NULL, '☆', '★') AS FAV
+FROM Animations
+INNER JOIN Global_access ON Global_access.global_access_id = Animations.id AND Global_access.global_access_table = 'Animations'
+LEFT JOIN rates ON rates.rate_id = Animations.id AND rates.user_id = 1 AND rates.rate_table = 'Animations'
+LEFT JOIN favourites ON favourites.user_id = 1 AND favourites.favourite_id = Animations.id AND favourites.favourite_table = 'Animations'
+UNION
+SELECT
+	Animations.*,
+    rates.rate,
+    IF(favourites.id IS NULL, '☆', '★') AS FAV
+FROM Animations INNER JOIN Creator ON Creator.create_id = Animations.id AND Creator.create_table = 'Animations' AND Creator.user_id = 1
+LEFT JOIN rates ON rates.rate_id = Animations.id AND rates.user_id = 1 AND rates.rate_table = 'Animations'
+LEFT JOIN favourites ON favourites.user_id = 1 AND favourites.favourite_id = Animations.id AND favourites.favourite_table = 'Animations'
+ WHERE available = 1 ORDER BY name;

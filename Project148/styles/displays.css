@@ -1,0 +1,67 @@
+.videos_display_window{
+  z-index: 1;
+  background-color: #01949a;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  border-radius: 6px;
+}
+
+.videos_display_ribbon{
+  background-color: #004369;
+  font-family: sans-serif;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.videos_display_rate{
+  text-align: center;
+  width: 100%;
+}
+.videos_display_rate h2{
+  padding: 6px;
+  margin: auto;
+  background: #db1f48;
+  border: 2px solid #e5ddc8;
+  border-radius: 50%;
+}
+
+.videos_display_title{
+  text-align: center;
+  width: 100%;
+}
+
+.videos_display_close{
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+.videos_display_close h2{
+  padding: 6px;
+  margin: auto;
+  background: #db1f48;
+  border: 2px solid #e5ddc8;
+  border-radius: 50%;
+}
+
+.videos_display_viewport{
+  text-align: center;
+}
+.videos_display_viewport video{
+  max-width: 100%;
+  min-height: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .videos_display_window{
+    height: 90%;
+    width: 90%;
+    margin: 5vh 5%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+}

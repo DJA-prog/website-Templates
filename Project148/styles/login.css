@@ -1,0 +1,99 @@
+.login_page{
+  background-image: url("../img/backgrounds/0004.webp");
+  background-position: center;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  text-align: center;
+}
+.login_back_blurr{
+  width: calc(100% - 60px);
+  height: calc(100vh - 60px);
+  background-color: hsla(190, 0%, 50%, 0.70);
+  z-index: 1;
+  padding: 30px;
+  text-align: center;
+}
+
+.login_frame{
+  background-image: url("../img/backgrounds/0004.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: calc(100%);
+  height: calc(100%);
+  z-index: 2;
+  text-align: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  display: grid;
+  grid-template-rows: 8% 14% 8% 40% 6% 24%;
+}
+
+.login_heading{
+  color: white;
+  font-weight: bold;
+  font-family: arial;
+  text-align: center;
+  font-size: 30px;
+}
+.login_heading img{
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.login_form{
+  text-align: center;
+  margin: 40px 0px;
+}
+
+.login_form_input{
+  border: none;
+  height: 30px;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: arial;
+  border-radius: 15px;
+  padding: 5px 15px;
+  width: 80%;
+  margin: 10px 0px;
+}
+
+.login_form_buffer{
+  height: 25px;
+}
+
+.login_form_button{
+  border: none;
+  background-color: red;
+  color: white;
+  height: 30px;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: arial;
+  font-weight: bold;
+  border-radius: 15px;
+  width: 80%;
+  cursor: pointer;
+}
+
+.login_signup{
+  margin: 20px auto 50px;
+  color: white;
+}
+
+.login_signup a{
+  color: white;
+}
+
+@media only screen and (min-width: 760px) {
+  .signup_frame{
+    width: 60%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .signup_frame{
+    width: 40%;
+  }
+}
